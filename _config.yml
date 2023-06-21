@@ -10,10 +10,10 @@ theme: "grusp_conf"
 
 # Site / OG
 type: website
-slug: sfday
-edition: 2021
-title: "sfday 2020"
-description: "sfday 2020, online conference"
+slug: angularday
+edition: 2023
+title: "angular 2023"
+description: "angular 2023"
 #   separate keywords by comma, no spaces
 keywords: conference,software conference,symfony,php,tech conference
 author: GrUSP
