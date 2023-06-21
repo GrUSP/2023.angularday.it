@@ -21,7 +21,7 @@ conference:
   #md_address: "Via Longhena 42"
   organizer_url: "http://grusp.org/"
   # contact email
-  contact_email: "rubyday@grusp.org"
+  contact_email: "angularday@grusp.org"
   # these are for the hero section
   title_pre: "Welcome to"
   title: "angularday 2023"
@@ -51,13 +51,13 @@ conference:
   cfp_readmore_label: "Read more"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2021-02-15T23:59+01:00
+  cfp_deadline: 2023-08-30T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "angularday 2023 is the 7th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
+  geninfo_description: "angularday 2023 is the 7th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all angular developers to meet and share experience while having fun and networking in an enjoyable context.
   <br> <br /><b>angularday 2023 is happening in Verona and online on Friday, November 24th 2023.</b>"
@@ -71,11 +71,11 @@ conference:
   # fields taken from the Mail chimp default form -- set to `true` to add subscription
   newsletter_lists:
     php: false
-    javascript: false
+    javascript: true
     design: false
     devops: false
-    frontend: false
-    ruby: true
+    frontend: true
+    ruby: false
     entrepreneurship: false
     local_events: false
     everything: false
@@ -105,7 +105,7 @@ conference:
     - "Security"
     - "Testing"
     - "Best practices"
-    
+
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
   workshop_visible: false
@@ -127,7 +127,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unmgzGOw3cbjS8ID-b-cF1d9"
+  youtube_playlist_id: "PLWK9j6ps_unm4gWG2SQcmsy-1JsAL2GVY"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "6048109"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -147,9 +147,9 @@ conference:
   community_partners_title: "Community partners"
   # this is for the Social links block
   social_follow: "Follow us on"
-  social_fb_url: "https://www.facebook.com/rubydayit/"
+  social_fb_url: "https://www.facebook.com/angularday/"
   social_linkedin_url: "https://www.linkedin.com/company/grusp/"
-  social_twitter_url: "https://twitter.com/rubydayit"
+  social_twitter_url: "https://twitter.com/angularday"
   social_vimeo_url: "https://vimeo.com/grusp"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
@@ -158,7 +158,7 @@ conference:
   back_to_home_label: "back to home page"
   # footer
   #   this is for the "previous editions" links
-  base_url: "rubyday.it/"
+  base_url: "angularday.it/"
   past_editions_pre: "Browse past editions:"
   past_editions:
     2011: "2011"

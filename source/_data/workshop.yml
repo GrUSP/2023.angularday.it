@@ -68,7 +68,7 @@ workshops:
     addressees_title: "A chi è rivolto"
     addressees_description: "Il workshop è rivolto a chi sa leggere il Lorem ipsum dolor sic amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Sapere accendere un computer è un requisito fondamentale, ma diciamo che anche sapere un minimo di Ruby aiuta."
+    requirements_description: ""
     useful_info_title: "Informazioni utili"
     useful_info_description: "Anche *avere* un computer aiuta! E se possibile dovreste avere installato rbenv, Bundler, node.js e yarn. Inoltre se avete un buon editor vi conviene: non dico VSCode, ma probabilmente Kate non è proprio l'ideale."
     # CTA

@@ -25,9 +25,9 @@ open_graph:
   # si può sostituire con il logo della conferenza (`img/conference-logo.png`)
   image: 'img/grusp-logo-full.png'
 twitter:
-  twitter_id: rubydayit
+  twitter_id: angularday
 fb:
-  fb_id: rubydayit
+  fb_id: angularday
 
 # Breadcrumbs
 breadcrumb:
@@ -36,7 +36,7 @@ breadcrumb:
 # URL
 ## If your site is put in a subdirectory, set url as 'yoursite.com/child' and root as '/child/'
 # TODO actual URL (per site)
-url: https://2021.rubyday.it/
+url: https://2023.angularday.it/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
