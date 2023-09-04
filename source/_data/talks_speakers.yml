@@ -16,7 +16,18 @@ speaker_1: &FabioBiondi
   speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
-speaker_2: &EdoardoDusi
+speaker_2: &DanielaBonvini
+  speaker_in_speaker_lists: true
+  speaker_name: Daniela Bonvini
+  speaker_pic_filename: DanielaBonvini.png
+  speaker_role: "Developer Relations Engineer @ SparkFabrik"
+  speaker_bio: "Having studied foreign languages for many years, I stumbled upon HTML and CSS and have been fascinated by the frontend side of programming ever since, marveling at the enormous creativity this world offers. 
+  <br />I like to think of the web as a blank canvas, and I'm always excited to craft something new with code. 
+  <br />I love the challenge of creating something visually appealing and functional that people can interact with and enjoy."
+  speaker_github_url: "https://github.com/daniela-bonvini"
+  speaker_linkedin_url: "https://www.linkedin.com/in/daniela-bonvini/"
+
+speaker_3: &EdoardoDusi
   speaker_in_speaker_lists: true
   speaker_name: Edoardo Dusi
   speaker_pic_filename: EdoardoDusi.png
@@ -32,7 +43,8 @@ speaker_2: &EdoardoDusi
 
 speakers:
   speaker_1: *FabioBiondi
-  speaker_2: *EdoardoDusi
+  speaker_2: *DanielaBonvini
+  speaker_3: *EdoardoDusi
 
 
 tracks:
@@ -102,5 +114,20 @@ Whether you're new to Angular or a seasoned pro, this quiz is designed to spark 
 Engage with the speaker, answer questions, and learn more about the subject through technical insights and explanations. "
         talk_video_url:
         speakers:
-          speaker_4: *FabioBiondi
+          speaker_1: *FabioBiondi
+
+      AngularSignals:What'sAllTheFussAbout:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Angular Signals: what's all the fuss about?"
+        talk_description: "Angular signals are a new feature that has the potential to revolutionize reactive programming in Angular, but apart from the newness of this new approach, the extreme love of some or the intense rejection of others, what are they really useful for? 
+        <br />Was it because the word 'reactive' was attractive in a new feature or because it was a much-needed introduction to the world of Angular?
+<br />Moreover, I will try to answer the most polarizing question after 'Does pineapple go on pizza': will signals replace RxJs? <br />
+In this talk, I will take you through the history of Angular's signals, from inception to creation to implementation, to understand what leads to their genesis. <br />
+You will learn what signals are and how they work, and through real-world use cases, I will show you how you can use them, switching existing logic from observables to signals.
+<br />I invite you to join me on this journey towards a new era of Angular to learn more about signals and how they can improve your Angular development experience."
+        talk_video_url:
+        speakers:
+          speaker_2: *DanielaBonvini
 
