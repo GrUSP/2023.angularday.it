@@ -16,8 +16,23 @@ speaker_1: &FabioBiondi
   speaker_linkedin_url: "https://www.linkedin.com/in/fabiobiondi/"
   is_mc: false
 
+speaker_2: &EdoardoDusi
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: EdoardoDusi.png
+  speaker_role: "Developer Relations Engineer @ SparkFabrik"
+  speaker_bio: "Edoardo is a Developer Relations Engineer at SparkFabrik, a company that helps organisations build digital products with open source technologies.
+  <br /> He has a strong software developer and team leader background, working on various projects and platforms. 
+  <br />He is passionate about creating and sharing content that educates and inspires other developers, such as tech talks, videos, podcasts, conferences, and more. 
+  <br />He enjoys connecting with the developer community and promoting the benefits of open source software."
+  speaker_github_url: "https://github.com/edodusi"
+  speaker_twitter_url: "https://twitter.com/edodusi"
+  speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
+  is_mc: true
+
 speakers:
   speaker_1: *FabioBiondi
+  speaker_2: *EdoardoDusi
 
 
 tracks:
