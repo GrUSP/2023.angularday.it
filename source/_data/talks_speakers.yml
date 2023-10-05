@@ -92,6 +92,18 @@ Organiser @ Angular-TLV"
   speaker_linkedin_url: "https://www.linkedin.com/in/eliran-els"
   is_mc: false
 
+speaker_8: &StefaniNikolova
+  speaker_in_speaker_lists: true
+  speaker_name: "Stefani Nikolova"
+  speaker_pic_filename: StefaniNikolova.png
+  speaker_role: "Software Engineering Manager @ Progress"
+  speaker_bio: "My name is Stefani Nikolova, a Software Engineering Manager.
+I am the team lead of the Kendo UI for Angular team at Progress. 
+<br />My professional interests revolve around front-end technologies, and I also have experience in graphic design."
+  speaker_twitter_url: "https://twitter.com/stnikolova"
+  speaker_linkedin_url: "https://www.linkedin.com/in/stefaninikolova"
+  is_mc: false
+
 speakers:
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
@@ -100,6 +112,7 @@ speakers:
   speaker_5: *AristeidisBampakos
   speaker_6: *RafaelMestre
   speaker_7: *EliranEliassy
+  speaker_8: *StefaniNikolova
 
 
 tracks:
@@ -235,4 +248,18 @@ In this talk, we will embark on a journey into the heart of the Angular Directiv
         talk_video_url:
         speakers:
           speaker_7: *EliranEliassy
+
+
+      OneCodebaseToRuleThemAllAMonorepoJourney:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "One Codebase to Rule Them All: A Monorepo Journey"
+        talk_description: "Have you ever had to manage multiple repositories for your interdependent npm packages? 
+        <br />If so, I bet you've struggled with it at some point. And quite some for that matter. 
+        <br />You might think that migrating to a monorepo is the obvious solution, and most of the time you'll be right. But what is the cost? In this session, we'll talk about the pros and cons of each approach and how to navigate the challenges that come with them. 
+        <br />Get an exclusive peek behind-the-scenes as I unveil my personal journey in developing one of the most Angular extensive web components libraries!"
+        talk_video_url:
+        speakers:
+          speaker_8: *StefaniNikolova
 
