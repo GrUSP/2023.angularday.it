@@ -41,10 +41,23 @@ speaker_3: &EdoardoDusi
   speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
   is_mc: true
 
+speaker_4: &ShmuelaJacobs
+  speaker_in_speaker_lists: true
+  speaker_name: Shmuela Jacobs
+  speaker_pic_filename: ShmuelaJacobs.png
+  speaker_role: "Consultant, Founder @ ngGirls"
+  speaker_bio: "Shmuela Jacobs is a proud ngMom of two ngBoys and a baby ngGirl, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. 
+  <br />She's the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics."
+  speaker_github_url: "https://github.com/ShmuelaJ"
+  speaker_twitter_url: "https://twitter.com/ShmuelaJ"
+  speaker_linkedin_url: "https://www.linkedin.com/in/shmuelaj"
+  is_mc: false
+
 speakers:
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
   speaker_3: *EdoardoDusi
+  speaker_4: *ShmuelaJacobs
 
 
 tracks:
@@ -130,4 +143,16 @@ You will learn what signals are and how they work, and through real-world use ca
         talk_video_url:
         speakers:
           speaker_2: *DanielaBonvini
+
+      FormOfArtReactiveCustomFormControls:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Form of Art: Reactive Custom Form Controls"
+        talk_description: "Angular’s Reactive Forms module gives us a lot of control and flexibility to easily build and define our forms. 
+        <br /> While looking at async data and form lifecycle events as streams, we can leverage the power of RxJS to react to these events. 
+        <br />Presenting a non-trivial custom form control, I will show how I use Observables when creating the form, reacting to value and state changes, and validating the input."
+        talk_video_url:
+        speakers:
+          speaker_4: *ShmuelaJacobs
 
