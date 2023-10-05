@@ -77,6 +77,21 @@ speaker_6: &RafaelMestre
   speaker_linkedin_url: "https://linkedin.com/in/rlmestre"
   is_mc: false
 
+speaker_7: &EliranEliassy
+  speaker_in_speaker_lists: true
+  speaker_name: "Eliran Eliassy"
+  speaker_pic_filename: EliranEliassy.png
+  speaker_role: "CEO & Founder @ e-square.io"
+  speaker_bio: "Eliran is an experienced FE developer, Angular enthusiast, public speaker and a community leader.
+<br />Founder & Developer @ e-square.io.
+<br />Angular Google Developer Expert (GDE).
+<br />
+Organiser @ Angular-TLV"
+  speaker_github_url: "https://github.com/eliraneliassy"
+  speaker_twitter_url: "https://twitter.com/eliraneliassy"
+  speaker_linkedin_url: "https://www.linkedin.com/in/eliran-els"
+  is_mc: false
+
 speakers:
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
@@ -84,6 +99,7 @@ speakers:
   speaker_4: *ShmuelaJacobs
   speaker_5: *AristeidisBampakos
   speaker_6: *RafaelMestre
+  speaker_7: *EliranEliassy
 
 
 tracks:
@@ -205,4 +221,18 @@ You will learn what signals are and how they work, and through real-world use ca
         talk_video_url:
         speakers:
           speaker_4: *RafaelMestre
+      
+      UnlockingThePowerOfAngularDirectiveCompositionAPI:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Unlocking the Power of Angular Directive Composition API"
+        talk_description: "In the ever-evolving world of Angular development, the Directive Composition API emerges as a transformative force, reshaping the way we build and manage directives. 
+        <br />Imagine creating complex, reusable UI components with ease, seamlessly composing directives to craft dynamic, interactive applications. 
+        <br />Welcome to the future of Angular development!
+<br />
+In this talk, we will embark on a journey into the heart of the Angular Directive Composition API. Together, we will unlock its potential, demystify its core concepts, and explore practical strategies for harnessing its power."
+        talk_video_url:
+        speakers:
+          speaker_7: *EliranEliassy
 
