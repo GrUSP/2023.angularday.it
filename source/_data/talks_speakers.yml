@@ -105,13 +105,13 @@ I am the team lead of the Kendo UI for Angular team at Progress.
   is_mc: false
 
 speakers:
+  speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
   speaker_3: *EdoardoDusi
-  speaker_4: *ShmuelaJacobs
-  speaker_5: *AristeidisBampakos
-  speaker_6: *RafaelMestre
   speaker_7: *EliranEliassy
+  speaker_4: *ShmuelaJacobs
+  speaker_6: *RafaelMestre
   speaker_8: *StefaniNikolova
 
 
@@ -169,7 +169,18 @@ days:
       #   speakers:
       #     speaker_1: *speaker
 
-     
+      TheEraOfStandaloneAPIs:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The era of Standalone APIs"
+        talk_description: "The new Angular Standalone APIs provide a modern and simpler approach to develop Angular applications.
+        <br />In this talk, we will learn how to use them extensively in Angular applications from scaffolding a new Angular project up to using well known providers such as the router and the HTTP client.
+        <br /> We will also cover migration strategies on how to use Standalone APIs in existing NgModule-based applications."
+        talk_video_url:
+        speakers:
+          speaker_4: *AristeidisBampakos
+
       Quiz:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
@@ -199,42 +210,6 @@ You will learn what signals are and how they work, and through real-world use ca
         speakers:
           speaker_2: *DanielaBonvini
 
-      FormOfArtReactiveCustomFormControls:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Form of Art: Reactive Custom Form Controls"
-        talk_description: "Angular’s Reactive Forms module gives us a lot of control and flexibility to easily build and define our forms. 
-        <br /> While looking at async data and form lifecycle events as streams, we can leverage the power of RxJS to react to these events. 
-        <br />Presenting a non-trivial custom form control, I will show how I use Observables when creating the form, reacting to value and state changes, and validating the input."
-        talk_video_url:
-        speakers:
-          speaker_4: *ShmuelaJacobs
-
-      TheEraOfStandaloneAPIs:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "The era of Standalone APIs"
-        talk_description: "The new Angular Standalone APIs provide a modern and simpler approach to develop Angular applications.
-        <br />In this talk, we will learn how to use them extensively in Angular applications from scaffolding a new Angular project up to using well known providers such as the router and the HTTP client.
-        <br /> We will also cover migration strategies on how to use Standalone APIs in existing NgModule-based applications."
-        talk_video_url:
-        speakers:
-          speaker_4: *AristeidisBampakos
-
-      CleanUpYourDOMByUsingTheFullPowerOfAngularHostElements:
-        item_type: "talk"
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Clean up your DOM by using the full power of Angular host elements"
-        talk_description: "Unlike other frameworks, Angular creates an element for every component. <br />
-        This can clutter your DOM with wrappers and third-party components. 
-        <br />Learn how to extend your host element capabilities with classes instead of inputs, @HostListeners instead of wrappers, Directive Composition API instead of nested components, and more!"
-        talk_video_url:
-        speakers:
-          speaker_4: *RafaelMestre
-      
       UnlockingThePowerOfAngularDirectiveCompositionAPI:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
@@ -249,6 +224,33 @@ In this talk, we will embark on a journey into the heart of the Angular Directiv
         speakers:
           speaker_7: *EliranEliassy
 
+      FormOfArtReactiveCustomFormControls:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Form of Art: Reactive Custom Form Controls"
+        talk_description: "Angular’s Reactive Forms module gives us a lot of control and flexibility to easily build and define our forms. 
+        <br /> While looking at async data and form lifecycle events as streams, we can leverage the power of RxJS to react to these events. 
+        <br />Presenting a non-trivial custom form control, I will show how I use Observables when creating the form, reacting to value and state changes, and validating the input."
+        talk_video_url:
+        speakers:
+          speaker_4: *ShmuelaJacobs
+
+      
+
+      CleanUpYourDOMByUsingTheFullPowerOfAngularHostElements:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Clean up your DOM by using the full power of Angular host elements"
+        talk_description: "Unlike other frameworks, Angular creates an element for every component. <br />
+        This can clutter your DOM with wrappers and third-party components. 
+        <br />Learn how to extend your host element capabilities with classes instead of inputs, @HostListeners instead of wrappers, Directive Composition API instead of nested components, and more!"
+        talk_video_url:
+        speakers:
+          speaker_4: *RafaelMestre
+      
+     
 
       OneCodebaseToRuleThemAllAMonorepoJourney:
         item_type: "talk"
