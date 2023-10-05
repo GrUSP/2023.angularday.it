@@ -41,10 +41,78 @@ speaker_3: &EdoardoDusi
   speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
   is_mc: true
 
+speaker_4: &ShmuelaJacobs
+  speaker_in_speaker_lists: true
+  speaker_name: "Shmuela Jacobs"
+  speaker_pic_filename: ShmuelaJacobs.png
+  speaker_role: "Consultant, Founder @ ngGirls"
+  speaker_bio: "Shmuela Jacobs is a proud ngMom of two ngBoys and a baby ngGirl, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. 
+  <br />She's the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics."
+  speaker_github_url: "https://github.com/ShmuelaJ"
+  speaker_twitter_url: "https://twitter.com/ShmuelaJ"
+  speaker_linkedin_url: "https://www.linkedin.com/in/shmuelaj"
+  is_mc: false
+
+speaker_5: &AristeidisBampakos
+  speaker_in_speaker_lists: true
+  speaker_name: "Aristeidis Bampakos"
+  speaker_pic_filename: AristeidisBampakos.png
+  speaker_role: "Development Team Lead @ Plex-Earth"
+  speaker_bio: "Aristeidis is an Angular Google Developer Expert that works as a Web Development Team Lead at Plex-Earth. 
+  <br />He is an award winning author of the Learning Angular and Angular Projects books and he is passionate about helping the developer community to learn and grow. 
+  <br /> His passion for teaching has led him to become an Angular Senior Tech Instructor at Code.Hub where he nurtures aspiring Angular developers and professionals."
+  speaker_github_url: "https://github.com/bampakoa"
+  speaker_twitter_url: "https://twitter.com/abampakos"
+  speaker_linkedin_url: "https://www.linkedin.com/in/aristeidisbampakos/"
+  is_mc: false
+
+speaker_6: &RafaelMestre
+  speaker_in_speaker_lists: true
+  speaker_name: "Rafael Mestre"
+  speaker_pic_filename: RafaelMestre.png
+  speaker_role: "Senior Software Engineer @ HeroDevs"
+  speaker_bio: "An Angular Expert from Puerto Rico looking to spread knowledge to everyone and leave no stone unturned."
+  speaker_github_url: "https://github.com/rlmestre"
+  speaker_twitter_url: "https://twitter.com/mestre_dev"
+  speaker_linkedin_url: "https://linkedin.com/in/rlmestre"
+  is_mc: false
+
+speaker_7: &EliranEliassy
+  speaker_in_speaker_lists: true
+  speaker_name: "Eliran Eliassy"
+  speaker_pic_filename: EliranEliassy.png
+  speaker_role: "CEO & Founder @ e-square.io"
+  speaker_bio: "Eliran is an experienced FE developer, Angular enthusiast, public speaker and a community leader.
+<br />Founder & Developer @ e-square.io.
+<br />Angular Google Developer Expert (GDE).
+<br />
+Organiser @ Angular-TLV"
+  speaker_github_url: "https://github.com/eliraneliassy"
+  speaker_twitter_url: "https://twitter.com/eliraneliassy"
+  speaker_linkedin_url: "https://www.linkedin.com/in/eliran-els"
+  is_mc: false
+
+speaker_8: &StefaniNikolova
+  speaker_in_speaker_lists: true
+  speaker_name: "Stefani Nikolova"
+  speaker_pic_filename: StefaniNikolova.png
+  speaker_role: "Software Engineering Manager @ Progress"
+  speaker_bio: "My name is Stefani Nikolova, a Software Engineering Manager.
+I am the team lead of the Kendo UI for Angular team at Progress. 
+<br />My professional interests revolve around front-end technologies, and I also have experience in graphic design."
+  speaker_twitter_url: "https://twitter.com/stnikolova"
+  speaker_linkedin_url: "https://www.linkedin.com/in/stefaninikolova"
+  is_mc: false
+
 speakers:
+  speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
   speaker_3: *EdoardoDusi
+  speaker_7: *EliranEliassy
+  speaker_4: *ShmuelaJacobs
+  speaker_6: *RafaelMestre
+  speaker_8: *StefaniNikolova
 
 
 tracks:
@@ -101,7 +169,18 @@ days:
       #   speakers:
       #     speaker_1: *speaker
 
-     
+      TheEraOfStandaloneAPIs:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The era of Standalone APIs"
+        talk_description: "The new Angular Standalone APIs provide a modern and simpler approach to develop Angular applications.
+        <br />In this talk, we will learn how to use them extensively in Angular applications from scaffolding a new Angular project up to using well known providers such as the router and the HTTP client.
+        <br /> We will also cover migration strategies on how to use Standalone APIs in existing NgModule-based applications."
+        talk_video_url:
+        speakers:
+          speaker_4: *AristeidisBampakos
+
       Quiz:
         item_type: "talk"
         # start_datetime: 2022-05-19T10:25+02:00
@@ -130,4 +209,59 @@ You will learn what signals are and how they work, and through real-world use ca
         talk_video_url:
         speakers:
           speaker_2: *DanielaBonvini
+
+      UnlockingThePowerOfAngularDirectiveCompositionAPI:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Unlocking the Power of Angular Directive Composition API"
+        talk_description: "In the ever-evolving world of Angular development, the Directive Composition API emerges as a transformative force, reshaping the way we build and manage directives. 
+        <br />Imagine creating complex, reusable UI components with ease, seamlessly composing directives to craft dynamic, interactive applications. 
+        <br />Welcome to the future of Angular development!
+<br />
+In this talk, we will embark on a journey into the heart of the Angular Directive Composition API. Together, we will unlock its potential, demystify its core concepts, and explore practical strategies for harnessing its power."
+        talk_video_url:
+        speakers:
+          speaker_7: *EliranEliassy
+
+      FormOfArtReactiveCustomFormControls:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Form of Art: Reactive Custom Form Controls"
+        talk_description: "Angular’s Reactive Forms module gives us a lot of control and flexibility to easily build and define our forms. 
+        <br /> While looking at async data and form lifecycle events as streams, we can leverage the power of RxJS to react to these events. 
+        <br />Presenting a non-trivial custom form control, I will show how I use Observables when creating the form, reacting to value and state changes, and validating the input."
+        talk_video_url:
+        speakers:
+          speaker_4: *ShmuelaJacobs
+
+      
+
+      CleanUpYourDOMByUsingTheFullPowerOfAngularHostElements:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Clean up your DOM by using the full power of Angular host elements"
+        talk_description: "Unlike other frameworks, Angular creates an element for every component. <br />
+        This can clutter your DOM with wrappers and third-party components. 
+        <br />Learn how to extend your host element capabilities with classes instead of inputs, @HostListeners instead of wrappers, Directive Composition API instead of nested components, and more!"
+        talk_video_url:
+        speakers:
+          speaker_4: *RafaelMestre
+      
+     
+
+      OneCodebaseToRuleThemAllAMonorepoJourney:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "One Codebase to Rule Them All: A Monorepo Journey"
+        talk_description: "Have you ever had to manage multiple repositories for your interdependent npm packages? 
+        <br />If so, I bet you've struggled with it at some point. And quite some for that matter. 
+        <br />You might think that migrating to a monorepo is the obvious solution, and most of the time you'll be right. But what is the cost? In this session, we'll talk about the pros and cons of each approach and how to navigate the challenges that come with them. 
+        <br />Get an exclusive peek behind-the-scenes as I unveil my personal journey in developing one of the most Angular extensive web components libraries!"
+        talk_video_url:
+        speakers:
+          speaker_8: *StefaniNikolova
 
