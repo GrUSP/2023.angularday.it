@@ -66,12 +66,24 @@ speaker_5: &AristeidisBampakos
   speaker_linkedin_url: "https://www.linkedin.com/in/aristeidisbampakos/"
   is_mc: false
 
+speaker_6: &RafaelMestre
+  speaker_in_speaker_lists: true
+  speaker_name: "Rafael Mestre"
+  speaker_pic_filename: RafaelMestre.png
+  speaker_role: "Senior Software Engineer @ HeroDevs"
+  speaker_bio: "An Angular Expert from Puerto Rico looking to spread knowledge to everyone and leave no stone unturned."
+  speaker_github_url: "https://github.com/rlmestre"
+  speaker_twitter_url: "https://twitter.com/mestre_dev"
+  speaker_linkedin_url: "https://linkedin.com/in/rlmestre"
+  is_mc: false
+
 speakers:
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
   speaker_3: *EdoardoDusi
   speaker_4: *ShmuelaJacobs
   speaker_5: *AristeidisBampakos
+  speaker_6: *RafaelMestre
 
 
 tracks:
@@ -181,4 +193,16 @@ You will learn what signals are and how they work, and through real-world use ca
         talk_video_url:
         speakers:
           speaker_4: *AristeidisBampakos
+
+      CleanUpYourDOMByUsingTheFullPowerOfAngularHostElements:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Clean up your DOM by using the full power of Angular host elements"
+        talk_description: "Unlike other frameworks, Angular creates an element for every component. <br />
+        This can clutter your DOM with wrappers and third-party components. 
+        <br />Learn how to extend your host element capabilities with classes instead of inputs, @HostListeners instead of wrappers, Directive Composition API instead of nested components, and more!"
+        talk_video_url:
+        speakers:
+          speaker_4: *RafaelMestre
 
