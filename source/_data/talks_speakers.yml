@@ -104,16 +104,30 @@ I am the team lead of the Kendo UI for Angular team at Progress.
   speaker_linkedin_url: "https://www.linkedin.com/in/stefaninikolova"
   is_mc: false
 
+
+speaker_9: &EnricoGiacomazzi
+  speaker_in_speaker_lists: true
+  speaker_name: "Enrico Giacomazzi"
+  speaker_pic_filename: EnricoGiacomazzi.png
+  speaker_role: "Fullstack consultant and CS teacher"
+  speaker_bio: "Freelance fullstack consultant<br />
+Freelance trainer<br />
+ITS and IFTS computer science teacher"
+  speaker_github_url: "https://github.com/enricogiacomazzi"
+  speaker_linkedin_url: "https://www.linkedin.com/in/giacomazzienrico"
+  is_mc: false
+
 speakers:
   speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
   speaker_3: *EdoardoDusi
   speaker_7: *EliranEliassy
+  speaker_9: *EnricoGiacomazzi
   speaker_4: *ShmuelaJacobs
   speaker_6: *RafaelMestre
   speaker_8: *StefaniNikolova
-
+  
 
 tracks:
   track_1: &track_1
@@ -223,6 +237,21 @@ In this talk, we will embark on a journey into the heart of the Angular Directiv
         talk_video_url:
         speakers:
           speaker_7: *EliranEliassy
+
+
+      TheHitchhiker'sGuideToNGRX:
+        item_type: "talk"
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Unlocking the Power of Angular Directive Composition API"
+        talk_description: "NGRX is a fantastic framework that allows us to make Angular applications with a clear state management, but many developers are afraid to use it because it looks complex and overkill. 
+        <br />
+DON'T PANIC! <br />
+In this talk i want to show you how it works and a bunch of examples and tip and tricks to allow you a better use of NGRX, especially for the effects (the nightmare of all developers that use NGRX!)"
+
+        talk_video_url:
+        speakers:
+          speaker_7: *EnricoGiacomazzi
 
       FormOfArtReactiveCustomFormControls:
         item_type: "talk"
