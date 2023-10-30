@@ -15,8 +15,12 @@ sponsors_block_title: ""
 #     logo_filename: ""
 #     site_url: ""
 gold:
+  sponsor1:
+    name: "Sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
   sponsor2:
-    name: "workwave"
+    name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
@@ -28,10 +32,6 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor3:
-    name: "Sparkfabrik"
-    logo_filename: "sparkfabrik.png"
-    site_url: "https://www.sparkfabrik.com/it/"
 bronze:
   sponsor2:
     name: "Sticker Mule"
