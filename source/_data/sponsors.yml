@@ -9,11 +9,11 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "umana"
+    logo_filename: "umana.png"
+    site_url: "http://www.umana.it/"
 gold:
   sponsor1:
     name: "Sparkfabrik"
@@ -45,5 +45,4 @@ bronze:
 
 # Partner configuration
 partner_tags:
-  - php
   - angular
