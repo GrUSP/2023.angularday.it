@@ -1,10 +1,10 @@
 ---
-title: rails and vue
+title: ngGirls
 date: 2020-04-21 09:27:00
 layout: workshop_single
-ws_id: workshop_1
-path: workshop/workshop_1
-permalink: workshop/workshop_1
+ws_id: ngGirls
+path: workshop/ngGirls
+permalink: workshop/ngGirls
 # Used to generate breadcrumbs
 parent: workshop
 ---

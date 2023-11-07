@@ -56,7 +56,7 @@ conference:
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
   geninfo_visible: true
-  geninfo_title: "What is it?"
+  geninfo_title: "About angularday"
   geninfo_description: "angularday 2023 is the 7th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.reactjsday.it/'>reactjsday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all angular developers to meet and share experience while having fun and networking in an enjoyable context.
@@ -108,7 +108,7 @@ conference:
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"
