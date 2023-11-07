@@ -77,19 +77,17 @@ speaker_6: &RafaelMestre
   speaker_linkedin_url: "https://linkedin.com/in/rlmestre"
   is_mc: false
 
-speaker_7: &EliranEliassy
+speaker_7: &MicheleStieven
   speaker_in_speaker_lists: true
-  speaker_name: "Eliran Eliassy"
-  speaker_pic_filename: EliranEliassy.png
-  speaker_role: "CEO & Founder @ e-square.io"
-  speaker_bio: "Eliran is an experienced FE developer, Angular enthusiast, public speaker and a community leader.
-<br />Founder & Developer @ e-square.io.
-<br />Angular Google Developer Expert (GDE).
-<br />
-Organiser @ Angular-TLV"
-  speaker_github_url: "https://github.com/eliraneliassy"
-  speaker_twitter_url: "https://twitter.com/eliraneliassy"
-  speaker_linkedin_url: "https://www.linkedin.com/in/eliran-els"
+  speaker_name: "Michele Stieven"
+  speaker_pic_filename: MicheleStieven.png
+  speaker_role: "Freelance Consultant and Teacher, Angular GDE"
+  speaker_bio: "Michele is a Web Developer and Consultant who’s always looking for technologies which allow people to create complex, dynamic and reactive applications. 
+  <br />He helps teams of big and small companies with tools like Angular, RxJS, Redux and Web Components. 
+  <br />He loves writing and making complex things easy, and he does so in his italian blog (https://accademia.dev) which also hosts his video courses. 
+  <br />He’s taken part of many conferences, meetups and online events, and loves to help people in community groups. When he’s not working, he’s a musician."
+  speaker_github_url: "https://github.com/UserGalileo"
+  speaker_twitter_url: "https://twitter.com/MicheleStieven"
   is_mc: false
 
 speaker_8: &StefaniTsolova
@@ -121,10 +119,10 @@ speakers:
   speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
-  speaker_7: *EliranEliassy
-  speaker_9: *EnricoGiacomazzi
   speaker_4: *SoumayaErradi
+  speaker_9: *EnricoGiacomazzi
   speaker_6: *RafaelMestre
+  speaker_7: *MicheleStieven
   speaker_8: *StefaniTsolova
   speaker_3: *EdoardoDusi
 
@@ -221,20 +219,18 @@ You will learn what signals are and how they work, and through real-world use ca
         speakers:
           speaker_2: *DanielaBonvini
 
-      UnlockingThePowerOfAngularDirectiveCompositionAPI:
+      ConsistentUIsWithAngularRxJSNgRx:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-11-24T11:40+01:00
         end_datetime: 2023-11-24T12:20+01:00
-        talk_title: "Unlocking the Power of Angular Directive Composition API"
-        talk_description: "In the ever-evolving world of Angular development, the Directive Composition API emerges as a transformative force, reshaping the way we build and manage directives.
-        <br />Imagine creating complex, reusable UI components with ease, seamlessly composing directives to craft dynamic, interactive applications.
-        <br />Welcome to the future of Angular development!
-<br />
-In this talk, we will embark on a journey into the heart of the Angular Directive Composition API. Together, we will unlock its potential, demystify its core concepts, and explore practical strategies for harnessing its power."
+        talk_title: "Consistent UIs with Angular, RxJS and NgRx"
+        talk_description: "Creating UIs isn't that difficult, but creating consistent UIs without bugs is really hard. 
+        <br />With the amount of tools we have in 2023, the amount of inconsistent apps and websites we visit every day is absurd and frustrating.
+        <br />Can we fix our own apps with the help of some libraries? I think we can!"
         talk_video_url:
         speakers:
-          speaker_7: *EliranEliassy
+          speaker_7: *MicheleStieven
 
       Eli5AngularHydration:
         item_type: "talk"
