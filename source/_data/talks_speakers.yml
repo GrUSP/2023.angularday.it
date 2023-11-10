@@ -41,16 +41,16 @@ speaker_3: &EdoardoDusi
   speaker_linkedin_url: "https://www.linkedin.com/in/edoardodusi/"
   is_mc: true
 
-speaker_4: &ShmuelaJacobs
+speaker_4: &SoumayaErradi
   speaker_in_speaker_lists: true
-  speaker_name: "Shmuela Jacobs"
-  speaker_pic_filename: ShmuelaJacobs.png
-  speaker_role: "Consultant, Founder @ ngGirls"
-  speaker_bio: "Shmuela Jacobs is a proud ngMom of two ngBoys and a baby ngGirl, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer.
-  <br />She's the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics."
-  speaker_github_url: "https://github.com/ShmuelaJ"
-  speaker_twitter_url: "https://twitter.com/ShmuelaJ"
-  speaker_linkedin_url: "https://www.linkedin.com/in/shmuelaj"
+  speaker_name: "Soumaya Erradi"
+  speaker_pic_filename: SoumayaErradi.png
+  speaker_role: "Lead Software Developer @ Scaling Parrots"
+  speaker_bio: "I'm Soumaya Erradi and I'm a software developer and an IT teacher. I'm highly skilled in web development, specialized in developing enterprise applications using Angular.
+Currently, I'm working as frontend lead developer in a team focused on blockchain app development.As a speaker at conferences I bring advanced Angular topics, tips for the integration of smart contracts and best solutions for decentralized applications and web3."
+  speaker_github_url: "https://github.com/soumayaerradi"
+  speaker_twitter_url: "https://twitter.com/sumy92"
+  speaker_linkedin_url: "https://www.linkedin.com/in/soumaya-erradi"
   is_mc: false
 
 speaker_5: &AristeidisBampakos
@@ -77,19 +77,17 @@ speaker_6: &RafaelMestre
   speaker_linkedin_url: "https://linkedin.com/in/rlmestre"
   is_mc: false
 
-speaker_7: &EliranEliassy
+speaker_7: &MicheleStieven
   speaker_in_speaker_lists: true
-  speaker_name: "Eliran Eliassy"
-  speaker_pic_filename: EliranEliassy.png
-  speaker_role: "CEO & Founder @ e-square.io"
-  speaker_bio: "Eliran is an experienced FE developer, Angular enthusiast, public speaker and a community leader.
-<br />Founder & Developer @ e-square.io.
-<br />Angular Google Developer Expert (GDE).
-<br />
-Organiser @ Angular-TLV"
-  speaker_github_url: "https://github.com/eliraneliassy"
-  speaker_twitter_url: "https://twitter.com/eliraneliassy"
-  speaker_linkedin_url: "https://www.linkedin.com/in/eliran-els"
+  speaker_name: "Michele Stieven"
+  speaker_pic_filename: MicheleStieven.png
+  speaker_role: "Freelance Consultant and Teacher, Angular GDE"
+  speaker_bio: "Michele is a Web Developer and Consultant who’s always looking for technologies which allow people to create complex, dynamic and reactive applications. 
+  <br />He helps teams of big and small companies with tools like Angular, RxJS, Redux and Web Components. 
+  <br />He loves writing and making complex things easy, and he does so in his italian blog (https://accademia.dev) which also hosts his video courses. 
+  <br />He’s taken part of many conferences, meetups and online events, and loves to help people in community groups. When he’s not working, he’s a musician."
+  speaker_github_url: "https://github.com/UserGalileo"
+  speaker_twitter_url: "https://twitter.com/MicheleStieven"
   is_mc: false
 
 speaker_8: &StefaniTsolova
@@ -117,16 +115,33 @@ ITS and IFTS computer science teacher"
   speaker_linkedin_url: "https://www.linkedin.com/in/giacomazzienrico"
   is_mc: false
 
+
+speaker_10: &JuriStrumpflohner
+  speaker_in_speaker_lists: true
+  speaker_name: "Juri Strumpflohner"
+  speaker_pic_filename: JuriStrumpflohner.png
+  speaker_role: "Sr. Director of Developer Experience @ Nx"
+  speaker_bio: "Juri Strumpflohner is the Sr. Director of Developer Experience at Nx where he helps developers with questions around frontend development, monorepos, scaling and modern tools.
+  <br />Prior to moving into developer relations, he has been consulting for some of the world's biggest companies, helping them scale their development efforts, particularly in the frontend space. 
+  <br />Juri is a Google Developers Expert, speaker and Egghead instructor. Reach out to him on Twitter (@juristr) or his website on juri.dev."
+  speaker_github_url: "https://juri.dev"
+  speaker_github_url: "https://github.com/juristr"
+  speaker_twitter_url: "https://twitter.com/juristr"
+  speaker_linkedin_url: "https://www.linkedin.com/in/juristr"
+  is_mc: false
+
 speakers:
   speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
   speaker_2: *DanielaBonvini
-  speaker_7: *EliranEliassy
+  speaker_4: *SoumayaErradi
   speaker_9: *EnricoGiacomazzi
-  speaker_4: *ShmuelaJacobs
   speaker_6: *RafaelMestre
+  speaker_7: *MicheleStieven
+  speaker_10: *JuriStrumpflohner
   speaker_8: *StefaniTsolova
   speaker_3: *EdoardoDusi
+
 
 
 tracks:
@@ -221,33 +236,31 @@ You will learn what signals are and how they work, and through real-world use ca
         speakers:
           speaker_2: *DanielaBonvini
 
-      UnlockingThePowerOfAngularDirectiveCompositionAPI:
+      ConsistentUIsWithAngularRxJSNgRx:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-11-24T11:40+01:00
         end_datetime: 2023-11-24T12:20+01:00
-        talk_title: "Unlocking the Power of Angular Directive Composition API"
-        talk_description: "In the ever-evolving world of Angular development, the Directive Composition API emerges as a transformative force, reshaping the way we build and manage directives.
-        <br />Imagine creating complex, reusable UI components with ease, seamlessly composing directives to craft dynamic, interactive applications.
-        <br />Welcome to the future of Angular development!
-<br />
-In this talk, we will embark on a journey into the heart of the Angular Directive Composition API. Together, we will unlock its potential, demystify its core concepts, and explore practical strategies for harnessing its power."
+        talk_title: "Consistent UIs with Angular, RxJS and NgRx"
+        talk_description: "Creating UIs isn't that difficult, but creating consistent UIs without bugs is really hard. 
+        <br />With the amount of tools we have in 2023, the amount of inconsistent apps and websites we visit every day is absurd and frustrating.
+        <br />Can we fix our own apps with the help of some libraries? I think we can!"
         talk_video_url:
         speakers:
-          speaker_7: *EliranEliassy
+          speaker_7: *MicheleStieven
 
-      FormOfArtReactiveCustomFormControls:
+      Eli5AngularHydration:
         item_type: "talk"
         track: *track_1
         start_datetime: 2023-11-24T12:20+01:00
         end_datetime: 2023-11-24T13:00+01:00
-        talk_title: "Form of Art: Reactive Custom Form Controls"
-        talk_description: "Angular’s Reactive Forms module gives us a lot of control and flexibility to easily build and define our forms.
-        <br /> While looking at async data and form lifecycle events as streams, we can leverage the power of RxJS to react to these events.
-        <br />Presenting a non-trivial custom form control, I will show how I use Observables when creating the form, reacting to value and state changes, and validating the input."
+        talk_title: "ELI5 Angular Hydration"
+        talk_description: "Angular 16, which was released earlier this year, represents a significant breakthrough for Angular developers. 
+        <br />One of the notable advancements in this release pertains to server-side rendering (SSR) hydration. 
+        <br />Let's explore how hydration has evolved in Angular development, comparing it to the previous approach and highlighting the improvements in the latest release."
         talk_video_url:
         speakers:
-          speaker_4: *ShmuelaJacobs
+          speaker_4: *SoumayaErradi
 
       Quiz:
         item_type: "talk"
@@ -306,4 +319,17 @@ In this talk i want to show you how it works and a bunch of examples and tip and
         talk_video_url:
         speakers:
           speaker_8: *StefaniTsolova
+
+      NxEnterEnterpriseDevelopmentForAngular:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-24T17:10+01:00
+        end_datetime: 2023-11-24T17:50+01:00
+        talk_title: "Nx - Enter Enterprise Development for Angular"
+        talk_description: "Angular is a key player in enterprise-level development, where robust and scalable software solutions are crucial. 
+        <br />This talk distills the essentials of adopting Nx for your Angular projects. 
+        <br />We'll unpack how Nx elevates your development strategy, ensuring scalability, maintainability, and efficiency at an enterprise level. Learn how Nx's advanced tooling and capabilities streamline team collaboration, code consistency, and CI processes, positioning your projects at the forefront of modern development practices."
+        talk_video_url:
+        speakers:
+          speaker_10: *JuriStrumpflohner
 
