@@ -115,6 +115,21 @@ ITS and IFTS computer science teacher"
   speaker_linkedin_url: "https://www.linkedin.com/in/giacomazzienrico"
   is_mc: false
 
+
+speaker_10: &JuriStrumpflohner
+  speaker_in_speaker_lists: true
+  speaker_name: "Juri Strumpflohner"
+  speaker_pic_filename: JuriStrumpflohner.png
+  speaker_role: "Sr. Director of Developer Experience @ Nx"
+  speaker_bio: "Juri Strumpflohner is the Sr. Director of Developer Experience at Nx where he helps developers with questions around frontend development, monorepos, scaling and modern tools.
+  <br />Prior to moving into developer relations, he has been consulting for some of the world's biggest companies, helping them scale their development efforts, particularly in the frontend space. 
+  <br />Juri is a Google Developers Expert, speaker and Egghead instructor. Reach out to him on Twitter (@juristr) or his website on juri.dev."
+  speaker_github_url: "https://juri.dev"
+  speaker_github_url: "https://github.com/juristr"
+  speaker_twitter_url: "https://twitter.com/juristr"
+  speaker_linkedin_url: "https://www.linkedin.com/in/juristr"
+  is_mc: false
+
 speakers:
   speaker_5: *AristeidisBampakos
   speaker_1: *FabioBiondi
@@ -123,8 +138,10 @@ speakers:
   speaker_9: *EnricoGiacomazzi
   speaker_6: *RafaelMestre
   speaker_7: *MicheleStieven
+  speaker_10: *JuriStrumpflohner
   speaker_8: *StefaniTsolova
   speaker_3: *EdoardoDusi
+
 
 
 tracks:
@@ -302,4 +319,17 @@ In this talk i want to show you how it works and a bunch of examples and tip and
         talk_video_url:
         speakers:
           speaker_8: *StefaniTsolova
+
+      NxEnterEnterpriseDevelopmentForAngular:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2023-11-24T17:10+01:00
+        end_datetime: 2023-11-24T17:50+01:00
+        talk_title: "Nx - Enter Enterprise Development for Angular"
+        talk_description: "Angular is a key player in enterprise-level development, where robust and scalable software solutions are crucial. 
+        <br />This talk distills the essentials of adopting Nx for your Angular projects. 
+        <br />We'll unpack how Nx elevates your development strategy, ensuring scalability, maintainability, and efficiency at an enterprise level. Learn how Nx's advanced tooling and capabilities streamline team collaboration, code consistency, and CI processes, positioning your projects at the forefront of modern development practices."
+        talk_video_url:
+        speakers:
+          speaker_10: *JuriStrumpflohner
 
