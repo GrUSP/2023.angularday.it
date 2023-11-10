@@ -124,7 +124,6 @@ speaker_10: &JuriStrumpflohner
   speaker_bio: "Juri Strumpflohner is the Sr. Director of Developer Experience at Nx where he helps developers with questions around frontend development, monorepos, scaling and modern tools.
   <br />Prior to moving into developer relations, he has been consulting for some of the world's biggest companies, helping them scale their development efforts, particularly in the frontend space. 
   <br />Juri is a Google Developers Expert, speaker and Egghead instructor. Reach out to him on Twitter (@juristr) or his website on juri.dev."
-  speaker_github_url: "https://juri.dev"
   speaker_github_url: "https://github.com/juristr"
   speaker_twitter_url: "https://twitter.com/juristr"
   speaker_linkedin_url: "https://www.linkedin.com/in/juristr"
@@ -187,11 +186,6 @@ days:
         end_datetime: 2023-11-24T14:20+01:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      lightning:
-        item_type: "service"
-        start_datetime: 2023-11-24T14:20+01:00
-        end_datetime: 2023-11-24T14:40+01:00
-        talk_title: "Lightning talks"
       coffee-afternoon:
         item_type: "service"
         start_datetime: 2023-11-24T16:00+01:00
@@ -239,8 +233,8 @@ You will learn what signals are and how they work, and through real-world use ca
       ConsistentUIsWithAngularRxJSNgRx:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-24T11:40+01:00
-        end_datetime: 2023-11-24T12:20+01:00
+        start_datetime: 2023-11-24T14:20+01:00
+        end_datetime: 2023-11-24T14:50+01:00
         talk_title: "Consistent UIs with Angular, RxJS and NgRx"
         talk_description: "Creating UIs isn't that difficult, but creating consistent UIs without bugs is really hard. 
         <br />With the amount of tools we have in 2023, the amount of inconsistent apps and websites we visit every day is absurd and frustrating.
@@ -265,7 +259,7 @@ You will learn what signals are and how they work, and through real-world use ca
       Quiz:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-24T14:40+01:00
+        start_datetime: 2023-11-24T14:50+01:00
         end_datetime: 2023-11-24T15:20+01:00
         talk_title: "How Well Do You Know Angular? Let's Have Fun Together!"
         talk_description: "Curious about your Angular knowledge?
@@ -323,8 +317,8 @@ In this talk i want to show you how it works and a bunch of examples and tip and
       NxEnterEnterpriseDevelopmentForAngular:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2023-11-24T17:10+01:00
-        end_datetime: 2023-11-24T17:50+01:00
+        start_datetime: 2023-11-24T11:40+01:00
+        end_datetime: 2023-11-24T12:20+01:00
         talk_title: "Nx - Enter Enterprise Development for Angular"
         talk_description: "Angular is a key player in enterprise-level development, where robust and scalable software solutions are crucial. 
         <br />This talk distills the essentials of adopting Nx for your Angular projects. 
