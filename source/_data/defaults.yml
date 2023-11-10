@@ -101,10 +101,13 @@ conference:
   topics_description: "We'll talk about..."
   topics:
     - "Angular"
-    - "Microfrontend"
-    - "Security"
-    - "Testing"
+    - "Api"
     - "Best practices"
+    - "NgRx"
+    - "NX"
+    - "RxJS"
+    - "Signals"
+    - "SSR"
 
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
