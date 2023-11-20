@@ -12,11 +12,11 @@ menu:
   # scommentare per generare pagina
 
   # menu item for workshop
-  workshop: workshop
+#   workshop: workshop
 
-workshops submenu (comment out if only one workshop: add items for multiple workshops)
-workshop_submenu:
-  ngGirls: ngGirls
+# workshops submenu (comment out if only one workshop: add items for multiple workshops)
+# workshop_submenu:
+#   ngGirls: ngGirls
 
 
 # welcome submenu
